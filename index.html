@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 Flashcards</h1>
+
+  <div class="container" style="text-align: center; margin-bottom: 20px;">
+  <img src="https://raw.githubusercontent.com/gist/lucasdsm/flashcard-art/main/flashcard-purple-illustration-1.png" alt="Ilustração de flashcards" width="300" />
+</div>
+
+  <div class="container" id="flashcards"></div>
+
+  <div class="container add-form">
+    <input type="text" id="question" placeholder="Digite a pergunta" />
+    <input type="text" id="answer" placeholder="Digite a resposta" />
+    <button onclick="addFlashcard()">Adicionar Flashcard</button>
+  </div>
+
+  <script src="perguntas.js"></script>
+  <script src="apps.js"></script>
+</body>
+</html>
